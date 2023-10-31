@@ -1,0 +1,187 @@
+* {
+    font-family: 'Poppins', sans-serif;
+ }
+
+
+
+//  Navbar
+ .navbar {
+    .nav-link {
+        color: #888888;
+        &.active {
+            color: #FFF !important;
+        }
+        &:hover {
+            color: #FFF;
+        }
+    }
+    .btn-login {
+        border: 1px solid #888888;
+        color: #888888;
+        border-radius: 30px;
+        height: 35px;
+    }
+ }
+//  Navbar
+
+.top {
+    .search-bar {
+        .form-control {
+            background-color: #111111;
+            border: 1px solid #888888;
+            border-radius: 30px;
+            padding: 15px 30px;
+            color: #FFF;
+            &::placeholder {
+                color: #888888;
+            }
+        }
+    }
+}
+.content {
+    margin-top: 40px;
+    .comment {
+        margin-top: 40px;
+        .input-comment {
+            background-color: #111111;
+            border: 0;
+            border-bottom: 1px solid #888888;
+            padding: 9px 0;
+            &::placeholder {
+                color: #888888;
+                font-size: 20px;
+            }
+        }
+    }
+    .month {
+        text-decoration: none;
+        color: #888888;
+        font-size: 20px;
+        &.active {
+            color: #fff;
+        }
+    }
+    .video-title {
+        font-weight: bold;
+        color: #FFF;
+        font-size: 20px;
+    }
+    .video-desc {
+        color: #888888;
+        font-size: 14px;
+    }
+}
+// Highlight
+
+// Match
+.header-match {
+    margin-top: 40px;
+    .box {
+        width: 100%;
+        background-color: #1B1C21;
+        padding: 27px 22px;
+        border-radius: 15px;
+        .detail-score {
+            padding: 8px 20px;
+            background-color: #302D26;
+            color: #F5C451;
+            border-radius: 30px;
+        }
+        .score-stats {
+            p {
+                font-weight: 500;
+                font-size: 14px;
+                color: #FFF;
+                margin-bottom: -5px;
+            }
+            .number-left {
+                font-weight: 600;
+                color: #F5C451;
+                margin-bottom: 6px;
+            }
+            .number-right {
+                font-weight: 600;
+                color: #006AA9;
+                margin-bottom: 6px;
+            }
+            .progress-container {
+                width: 100%;
+                background-color: #3A3A3A;
+                height: 4px;
+            }
+            .progress-bar {
+                height: 100%;
+                line-height: 4px;
+            }
+        }
+    }
+}
+.football-match {
+    margin-top: 40px;
+    ul {
+        margin-top: 35px;
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        li {
+            display: inline;
+            margin-right: 35px;
+            a {
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+                color: #888888;
+                padding: 5px;
+                &.active {
+                    color: #FFF;
+                    border-bottom: 3px solid #5742A9;
+                }
+            }
+        }
+    }
+    .box {
+        margin-top: 25px;
+        width: 100%;
+        background-color: #1B1C21;
+        border-radius: 15px;
+        padding: 20px 27px;
+        th {
+            color: #FFF;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        td {
+            font-size: 12px;
+            color: #FFF;
+        }
+    }
+}
+// Match
+
+// Footer
+footer {
+    background-image: url('../images/background-footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    ul {
+        list-style: none;
+        display: inline;
+        li {
+            list-style: none;
+            display: inline;
+            a {
+                display: inline-block;
+                color: #888888;
+                text-decoration: none;
+            }
+        }
+    }
+    .copy {
+        color: #888888;
+    }
+ }
+//  Footer

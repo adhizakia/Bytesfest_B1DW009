@@ -1,0 +1,126 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar .nav-link {
+  color: #888888;
+}
+.navbar .nav-link.active {
+  color: #FFF !important;
+}
+.navbar .nav-link:hover {
+  color: #FFF;
+}
+.navbar .btn-login {
+  border: 1px solid #888888;
+  color: #888888;
+  border-radius: 30px;
+  height: 35px;
+}
+
+.content .row .produk {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content .row .produk .detail {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2A2B2D;
+}
+.content .row .produk .detail.active {
+  background-color: #636770;
+}
+.content .row .produk .detail:hover {
+  background-color: #636770;
+}
+.content .row .desc {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content .row .desc h1 {
+  font-weight: bold;
+}
+.content .row .desc p {
+  color: #888888;
+}
+.content .row .desc .size {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2A2B2D;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFF;
+}
+.content .row .desc .size.active {
+  background-color: #636770;
+}
+.content .row .desc .size:hover {
+  background-color: #636770;
+}
+.content .row .desc .kuantitas {
+  height: 40px;
+  border: 1px solid #636770;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .row .desc .kuantitas #min {
+  font-size: 24px;
+}
+.content .row .desc .kuantitas #add {
+  font-size: 24px;
+}
+.content .row .desc .btn {
+  color: #FFF;
+  height: 40px;
+  background-color: #FC6061;
+  border-radius: 20px;
+}
+
+.suggestion h3 {
+  color: #FFF;
+}
+.suggestion .row a {
+  text-decoration: none;
+}
+
+footer {
+  background-image: url("../images/background-footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90px;
+  margin-top: 100px;
+}
+footer ul {
+  list-style: none;
+  display: inline;
+}
+footer ul li {
+  list-style: none;
+  display: inline;
+}
+footer ul li a {
+  display: inline-block;
+  color: #888888;
+  text-decoration: none;
+}
+footer .gambar {
+  margin-right: 247px;
+}
+footer .copy {
+  color: #888888;
+}/*# sourceMappingURL=produk.css.map */
